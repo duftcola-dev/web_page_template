@@ -1,0 +1,7 @@
+DROP TABLE Test;
+
+CREATE TABLE Test (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, 
+        user TEXT NOT NULL UNIQUE
+);
+

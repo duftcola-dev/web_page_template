@@ -1,6 +1,6 @@
 from crypt import methods
 from flask import Blueprint,request,current_app
-from app.utils.response import create_response
+from app.utils.response.response import create_response
 from datetime import datetime
 
 bp = Blueprint("status",__name__,url_prefix="/status")
