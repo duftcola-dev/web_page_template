@@ -1,6 +1,7 @@
--e git+https://github.com/duftcola-dev/WEB_PAGE_TAMPLATE.git@d4f8cd8c0843c57545df01c7d1f2837257aae723#egg=app
+-e git+https://github.com/duftcola-dev/WEB_PAGE_TAMPLATE.git@74e060c52fac9e49f7941751e6c149ff6b1decdb#egg=app
 attrs==21.4.0
 click==8.1.3
+coverage==6.4.1
 Flask==2.1.2
 gunicorn==20.1.0
 importlib-metadata==4.11.4

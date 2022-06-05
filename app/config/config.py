@@ -35,7 +35,9 @@ class DevelopmentConfig(AppConfig):
     DB_PASSWORD = "root"
 
 class TestConfig(AppConfig):
-
+    
+    HOST = "0.0.0.0"
+    PORT = 3000
     DATABASE_URI = "./app/database/test-db.db"
     DATABASE_INIT = "./database/test-init.sql"
     DATABASE_NAME = "test-db.db"
