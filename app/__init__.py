@@ -23,7 +23,6 @@ class App:
             app.config.from_object(config.DevelopmentConfig()) 
         if app.config["ENV"] == "production":
             app.config.from_object(config.ProductionConfig()) 
-        
         if test:
             app.config["ENV"] == "test"
             app.config.from_object(config.TestConfig()) 

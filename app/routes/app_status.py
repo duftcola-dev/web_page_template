@@ -19,15 +19,16 @@ def request_metadata():
     date = str(datetime.utcnow().strftime("%d/%m/%d-%H:%M:%S"))
     current_app.logger.info(f"{date} - {method}| {base}")
 
+
 @bp.route("/app")
 def app_status():
-
     payload = {"OK":1}
     return create_response(payload,200)
 
 
 @bp.route("/database")
 def database_status():
-
     payload = {"OK":1}
     return  create_response(payload,200)
+
+

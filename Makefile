@@ -1,7 +1,7 @@
 install:
 
 	python -m venv venv
-	. venv/bin/activate ; pip install -r  ./app/requirements/base_requirements.txt
+	. venv/bin/activate ; pip install -r  ./app/requirements/dev.txt
 	. venv/bin/activate ; pip install -e .
 	. venv/bin/activate ; pip list
 
