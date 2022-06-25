@@ -1,5 +1,4 @@
-from crypt import methods
-from flask import Blueprint,request,current_app
+from flask import Blueprint, render_template,request,current_app
 from app.utils.response.response import create_response
 from datetime import datetime
 
@@ -31,4 +30,7 @@ def database_status():
     payload = {"OK":1}
     return  create_response(payload,200)
 
+@bp.route("/default_template")
+def default():
+    return render_template("index.html")
 
