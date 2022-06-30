@@ -1,4 +1,5 @@
 MANIFEST.in
+setup.cfg
 setup.py
 app/__init__.py
 app.egg-info/PKG-INFO
@@ -7,5 +8,7 @@ app.egg-info/dependency_links.txt
 app.egg-info/not-zip-safe
 app.egg-info/requires.txt
 app.egg-info/top_level.txt
-app/database/init.sql
-app/database/test-init.sql
+app/templates/index.html
+app/templates/include/_footer.html
+app/templates/include/_layout.html
+app/templates/include/_navbar.html
